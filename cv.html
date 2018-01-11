@@ -74,32 +74,8 @@ href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
       
       
       </div>
-      
-  PDFJS.getDocument('helloworld.pdf').then(function(pdf) {
-  // Using promise to fetch the page
-  pdf.getPage(1).then(function(page) {
-    var scale = 1.5;
-    var viewport = page.getViewport(scale);
-
-    //
-    // Prepare canvas using PDF page dimensions
-    //
-    var canvas = document.getElementById('the-canvas');
-    var context = canvas.getContext('2d');
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    //
-    // Render PDF page into canvas context
-    //
-    var renderContext = {
-      canvasContext: context,
-      viewport: viewport
-    };
-    page.render(renderContext);
-  });
-});
-<embed src="assets/" type="application/img/cv.pdf"   height="1000px" width="500">
+ 
+<embed src="assets/img/cv.pdf" type="application/pdf"   height="1000px" width="500">
 
 </body>
 </div>
