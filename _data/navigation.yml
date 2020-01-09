@@ -2,6 +2,10 @@
 main:
   - title: "Publications"
     url: /publications/
+  - title: "Organizing"
+    url: /organizing/
+  -title: "Memberships"
+   url: /membership/
   - title: "CV"
     url: /files/CV_January_2020.pdf
 
