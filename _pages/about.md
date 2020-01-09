@@ -10,7 +10,7 @@ redirect_from:
 
 Biography
 ======
-I am a computational linguist with a background in the humanities. I studied Theater and Media Science and German in my bachelor's. Subsequently, I got my master's degree in computational linguistics. I defended my dissertation about NLP methods in the digital humanities in December 2017. Working in the field of digital humanities gives me the great opportunity to combine my interests in computer science with my curiosity about humanities studies.
+I am a computational linguist with a background in the humanities. I studied Theater and Media Science and German in my bachelor's. Subsequently, I got my master's degree in computational linguistics. I defended my dissertation about NLP methods in the digital humanities in December 2017. Working in the field of digital humanities gives me the great opportunity to combine my interests in computer science with my curiosity about humanities studies. My current research interests are explainability of AI, machine learning, digital humanities and non-standard texts.
 
 When I am not working, you find me hiking, climbing, running, cycling ... being outdoors and enjoying the nature in some way.
 
@@ -27,9 +27,6 @@ When I am not working, you find me hiking, climbing, running, cycling ... being 
  
 (Eberhard Karls University of Tübingen)
 
-## Research Interests
-* Explainability of AI
-* Machine learning
-* Digital Humanities
-* Non-standard text
+## News
+__November 2019:__ Participant at Dagstuhl Seminar 19452: Machine Learning Meets Visualization to Make Artificial Intelligence Interpretable
 
