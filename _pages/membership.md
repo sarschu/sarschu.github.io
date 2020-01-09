@@ -1,4 +1,4 @@
-# Memberships, Reviewing and Participation
+
 
 * Scientific Committee LREC 2020
 * Participant at Dagstuhl Seminar 19452: Machine Learning Meets Visualization to Make Artificial Intelligence Interpretable
