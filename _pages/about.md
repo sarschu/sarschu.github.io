@@ -17,12 +17,12 @@ When I am not working, you find me hiking, climbing, running, cycling ... being 
 
 ## Education
 
- ![alt text](https://fionnd.github.io/images/icon2.png "Logo Title Text 1")
+ ![alt text](https://sarschu.github.io/images/icon2.png "Logo Title Text 1")
  PhD Computational Lingustics, 2017
  
 (University of Stuttgart)
 
-![alt text](https://fionnd.github.io/images/icon2.png "Logo Title Text 1")
+![alt text](https://sarschu.github.io/images/icon2.png "Logo Title Text 1")
  MA in Computational Lingustics, 2013
  
 (Eberhard Karls University of Tübingen)
