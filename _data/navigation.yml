@@ -2,5 +2,7 @@
 main:
   - title: "Publications"
     url: /publications/
+  - title: "CV"
+    url: /files/CV_January_2020.pdf
 
  
