@@ -1,4 +1,4 @@
-# Organizing/Managing
+
 
 * Dagstuhl Seminar 19172: Computational Creativity meets Digital Humanities
 * Co-Manager of Interdisciplinary College 2019 (13th to 20th of March 2020, Günne)
