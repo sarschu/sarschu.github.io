@@ -4,10 +4,10 @@ main:
     url: /publications/
     
   - title: "Organizing"
-    url: /organizing/
+    url: /_pages/organizing/
     
   - title: "Memberships"
-    url: /membership/
+    url: /_pages/membership/
     
   - title: "CV"
     url: /files/CV_January_2020.pdf
