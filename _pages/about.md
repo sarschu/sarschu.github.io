@@ -28,6 +28,6 @@ When I am not working, you find me hiking, climbing, running, cycling ... being 
 (Eberhard Karls University of Tübingen)
 
 ## News
-__upcoming March 2020:__ Interdisciplinary College 2020: Curiosity, Risk and Reward. Visit the [website](https://interdisciplinary-college.org/)
+__upcoming March 2020:__ Interdisciplinary College 2020: Curiosity, Risk and Reward. Visit the [website](https://interdisciplinary-college.org/)  
 __November 2019:__ Participant at Dagstuhl Seminar 19452: Machine Learning Meets Visualization to Make Artificial Intelligence Interpretable
 
