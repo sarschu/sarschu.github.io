@@ -83,3 +83,10 @@ URL: [https://www\.aclweb\.org/anthology/W16\-2105](https://www.aclweb.org/antho
 From 0 to 10 million annotated words: part\-of\-speech tagging for Middle High German\.
 *Language Resources and Evaluation*, 53\(4\):837–863, Dec 2019\.
 URL: [https://doi\.org/10\.1007/s10579\-019\-09462\-8](https://doi.org/10.1007/s10579-019-09462-8), [doi:10\.1007/s10579\-019\-09462\-8](https://doi.org/10.1007/s10579-019-09462-8)\.  
+
+[17] Schulz, Sarah  and  Seva, Jurica  and  Rodriguez, Samuel  and  Ostendorff, Malte  and  Rehm, Georg\.
+  Named Entities in Medical Case Reports: Corpus and Experiments\.
+  Proceedings of The 12th Language Resources and Evaluation Conference\.
+  URL: [https://www.aclweb.org/anthology/2020.lrec-1.553]([https://www.aclweb.org/anthology/2020.lrec-1.553)\.
+
+
