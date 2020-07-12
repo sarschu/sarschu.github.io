@@ -11,6 +11,7 @@ redirect_from:
 Biography
 ======
 I am a computational linguist with a background in the humanities. I studied theatre and media science and German in my bachelor's. Subsequently, I got my master's degree in computational linguistics. I defended my dissertation about NLP methods in the digital humanities in December 2017. Working in the field of digital humanities gives me the great opportunity to combine my interests in computer science with my curiosity about humanities studies. My current research interests are explainability of AI, machine learning, digital humanities and non-standard texts.
+I am an expert in working with domain experts, implementing human-in-the-loop solutions for more efficient workflows and more consistent modelling of data, especially in the medical domain.
 
 When I am not working, you find me hiking, climbing, running, cycling ... being outdoors and enjoying the nature in some way.
 
@@ -33,7 +34,7 @@ When I am not working, you find me hiking, climbing, running, cycling ... being 
 (Friedrich-Alexander-Universität Erlangen-Nürnberg)
 
 ## News
-__March 2020:__ I am working for Amboss GmbH now. Great company! Excited to see how we can use AI to make Amboss even better.
+__March 2020:__ I am working for Amboss GmbH now. Great company! Excited to see how we can use AI to make Amboss even better. 
 __20th January 2020:__ Giving a talk on curation technologies in digital health at [Qurator 2020 – Conference on Digital Curation Technologies](https://qurator.ai/conference-qurator-2020/program-1st-day/)  
 __upcoming March 2020:__ Interdisciplinary College 2020: Curiosity, Risk and Reward. Visit the [website](https://interdisciplinary-college.org/)  
 __November 2019:__ Participant at Dagstuhl Seminar 19452: Machine Learning Meets Visualization to Make Artificial Intelligence Interpretable
