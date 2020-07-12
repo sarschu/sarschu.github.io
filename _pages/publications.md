@@ -86,7 +86,7 @@ URL: [https://doi\.org/10\.1007/s10579\-019\-09462\-8](https://doi.org/10.1007/s
 
 [17] Schulz, Sarah  and  Seva, Jurica  and  Rodriguez, Samuel  and  Ostendorff, Malte  and  Rehm, Georg\.
   Named Entities in Medical Case Reports: Corpus and Experiments\.
-  Proceedings of The 12th Language Resources and Evaluation Conference\.
+  *Proceedings of The 12th Language Resources and Evaluation Conference*\.
   URL: [https://www.aclweb.org/anthology/2020.lrec-1.553]([https://www.aclweb.org/anthology/2020.lrec-1.553)\.
 
 
