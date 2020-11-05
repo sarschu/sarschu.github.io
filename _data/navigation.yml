@@ -10,6 +10,8 @@ main:
     url: /_pages/membership/
     
   - title: "CV"
-    url: /files/CV_January_2020.pdf
-
+    url: /files/cv_11_2020.pdf
+  
+  -title: "Blog posts"
+    url: /year-archive/
   
