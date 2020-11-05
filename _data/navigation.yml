@@ -12,6 +12,6 @@ main:
   - title: "CV"
     url: /files/cv_11_2020.pdf
   
-  -title: "Blog posts"
+  - title: "Blog posts"
     url: /year-archive/
   
