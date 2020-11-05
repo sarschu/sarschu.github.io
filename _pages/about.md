@@ -34,6 +34,7 @@ When I am not working, you find me hiking, climbing, running, cycling ... being 
 (Friedrich-Alexander-Universität Erlangen-Nürnberg)
 
 ## News
+__November 2020:__ I started a blog about my experience working with domain experts and technical experts.
 __March 2020:__ I am working for Amboss GmbH now. Great company! Excited to see how we can use AI to make Amboss even better. 
 __20th January 2020:__ Giving a talk on curation technologies in digital health at [Qurator 2020 – Conference on Digital Curation Technologies](https://qurator.ai/conference-qurator-2020/program-1st-day/)  
 __upcoming March 2020:__ Interdisciplinary College 2020: Curiosity, Risk and Reward. Visit the [website](https://interdisciplinary-college.org/)  
