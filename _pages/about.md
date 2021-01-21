@@ -34,6 +34,7 @@ When I am not working, you find me hiking, climbing, running, cycling ... being 
 (Friedrich-Alexander-Universität Erlangen-Nürnberg)
 
 ## News
+* __March 2021:__ Register for our virtual version of Interdisciplinary College [here](https://interdisciplinary-college.org/) 
 * __November 2020:__ I started a blog about my experience working with domain experts and technical experts. You can see the link above. 
 * __March 2020:__ I am working for Amboss GmbH now. Great company! Excited to see how we can use AI to make Amboss even better. 
 * __March 2020:__ Interdisciplinary College 2020: Curiosity, Risk and Reward. Visit the [website](https://interdisciplinary-college.org/)  
