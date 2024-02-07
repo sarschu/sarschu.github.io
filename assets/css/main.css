@@ -1907,20 +1907,6 @@ input, select, textarea {
 				#header nav {
 					display: none;
 				}
-				
-				#header .row {
-				  max-height: 100%;
-				}
-
-				#header .col-2 {
-				  padding: 0;
-				}
-
-				.scaleableImage img {
-				  max-height: 100%;
-				  max-width: 100%;
-
-				}
 
 		}
 
