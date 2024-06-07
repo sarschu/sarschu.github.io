@@ -42,9 +42,11 @@ backdrop-filter: blur(10px);
 
 }
 badge.intro {
-            position: relative;
-            top: 0.5em;
-            left: 0.5em;
+	position: absolute;
+        height: 50px;
+    	width: 50px;
+    	top: 0px;
+    	left: 0px;
             z-index: 10;
         }
 
