@@ -41,6 +41,12 @@ div.intro {
 backdrop-filter: blur(10px);
 
 }
+badge.intro {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 10;
+        }
 
 blockquote, q {
 	quotes: none;
@@ -2254,6 +2260,7 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
+		
 	}
 
 /* One */
@@ -2362,6 +2369,9 @@ input, select, textarea {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+
 
 /* Contact */
 
