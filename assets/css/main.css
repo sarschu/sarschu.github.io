@@ -1312,7 +1312,7 @@ input, select, textarea {
 			width: 50%;
 			height: 100%;
 			opacity: 0;
-			cursor: pointer;
+			cursor: help;
 			background: rgba(0, 0, 0, 0.01);
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 		}
