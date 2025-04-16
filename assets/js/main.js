@@ -246,3 +246,17 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+$('<div id="navPanel">')
+  .append($('#nav').navList())
+  .appendTo($('body'))
+  .panel({
+    delay: 500,
+    hideOnClick: true,
+    hideOnSwipe: true,
+    resetScroll: true,
+    resetForms: true,
+    side: 'left',
+    target: $('body'),
+    visibleClass: 'navPanel-visible'
+  });
+
