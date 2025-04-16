@@ -246,3 +246,26 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+/* Hide mobile nav and toggle on desktop */
+@media (min-width: 768px) {
+  #nav,
+  .navPanelToggle {
+    display: none;
+  }
+}
+
+/* Show mobile nav toggle on smaller screens */
+@media (max-width: 767px) {
+  .navPanelToggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+    display: block;
+    background: #000;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+  }
+}
+
