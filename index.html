@@ -173,8 +173,13 @@ I am not here to solve your problems for you. As your ally, I am excited to help
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 <script>
-  document.querySelector('.menu-toggle').addEventListener('click', function () {
-    document.querySelector('.nav-links').classList.toggle('show');
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".nav-links");
+    
+    toggle?.addEventListener("click", function () {
+      nav?.classList.toggle("show");
+    });
   });
 </script>
 
