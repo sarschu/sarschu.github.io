@@ -1846,8 +1846,8 @@ input, select, textarea {
 		top: 0;
 		width: 100%;
 		background: rgba(255, 255, 255, 0.95);
-		height: 3em;
-		line-height: 3em;
+		/* height: 3em; */
+		/* line-height: 3em; */
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 	}
 
@@ -1919,7 +1919,7 @@ input, select, textarea {
 		}
 
 	body {
-		padding-top: 3em;
+		/* padding-top: 3em; */
 	}
 
 		@media screen and (max-width: 736px) {

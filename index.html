@@ -5,28 +5,98 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>EmpatheticAlly by Sarah Schulz</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-	</head>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QSY4LKPRR0"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
- 	 gtag('config', 'G-QSY4LKPRR0');
-	</script>
-	<body class="is-preload">
+<head>
+	<title>EmpatheticAlly by Sarah Schulz</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<style>
+		body {
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+		}
 
-		<!-- Header -->
-			<header id="header">
-				<h1>Dr. Sarah Schulz - Women in Tech and AI coaching
+		.topnav {
+			overflow: hidden;
+			background-color: #F0F0F4;
+			font-family: "Source Sans Pro", "sans-serif";
+			left: 1em
+		}
+
+		.topnav a {
+			float: left;
+			display: block;
+			color: #15141A;
+			text-align: center;
+			padding: 9px 9px;
+			padding-left: 20px;
+			text-decoration: none;
+			font-size: 16px;
+		}
+
+		.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+		.topnav a.active {
+			background-color: #04AA6D;
+			color: white;
+		}
+
+		.topnav .icon {
+			display: none;
+		}
+
+		@media screen and (max-width: 1290px) {
+			.topnav a:not(:first-child) {
+				display: none;
+			}
+
+			.topnav a.icon {
+				float: right;
+				display: block;
+			}
+		}
+
+		@media screen and (max-width: 1290px) {
+			.topnav.responsive {
+				/* position: relative; */
+			}
+
+			.topnav.responsive .icon {
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+
+			.topnav.responsive a {
+				float: none;
+				display: block;
+				text-align: left;
+			}
+		}
+	</style>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QSY4LKPRR0"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+	gtag('config', 'G-QSY4LKPRR0');
+</script>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<!-- <h1>Dr. Sarah Schulz - Women in Tech and AI coaching
 				</h1>
 				<nav>
 					<ul>
@@ -37,138 +107,190 @@
 						<li><a href="#testimonials">What others say!</a></li>
 						<li><a href="#contact">Free first session</a></li>
 					</ul>
-				</nav>
+				</nav> -->
+
+		<div class="topnav" id="myTopnav">
+			<a href=""><b>Dr. Sarah Schulz</b></a>
+			<a href="#one">Who I Am</a>
+			<a href="#two">How does coaching work?</a>
+			<a href="womenintech.html">Women in Tech coaching</a>
+			<a href="aicoaching.html">AI coaching</a>
+			<a href="#testimonials">What others say!</a>
+			<a href="#contact">Free first session</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+
+	</header>
+
+	<!-- Intro -->
+	<section id="intro" class="main style1 dark fullscreen">
+
+		<div class="content">
+			<header>
+				<h2>Hey.</h2>
+			</header>
+			<div class="intro">
+				Exploring new horizons? Let's embrace change together.
+			</div>
+
+			</p>
+			<footer>
+				<a href="#one" class="button style2 down">More</a>
+			</footer>
+		</div>
+	</section>
+
+
+	<!-- One -->
+	<section id="one" class="main style2 left dark fullscreen">
+		<div class="content box style2">
+			<header>
+				<h2>Who I Am</h2>
+			</header>
+			<p>My career journey can be encapsulated in one word: transformation. I transitioned from theatre studies to
+				linguistics, from linguistics to artificial intelligence, and from there into management. These shifts
+				were far from predictable, yet each felt like a natural progression. I've lived in five countries, each
+				move spurred by a mix of stagnation and curiosity, turning what could have been restarts into continuous
+				evolution. While the path hasn't always been straightforward, it has taught me a great deal about
+				adaptability, preventing burnout, seeking support, and taking control of my life.</p>
+			<p>
+				As a certified <a href="https://www.credly.com/badges/4caf31ed-d148-4ddc-b10b-b70864d790bc">ACC-level
+					coach</a> with the International Coaching Federation, I focus on career and personal development
+				coaching for women in tech and academia. My coaching style is creative and adaptable, incorporating
+				principles of positive psychology, metacognition, and emotional work, with a strong emphasis on
+				co-creating solutions with my clients. Grounding my practice in scientific principles is vital to me:
+				Why does our brain resist change? What role do emotions play in our evolution? How can we motivate
+				ourselves to tackle challenging yet desirable tasks?</p>
+			<p>
+				My passion for nature led me from Germany to Ireland, a land of wild, rugged beauty. While I embrace the
+				connectivity of the digital world, I also cherish the power of nature as a co-facilitator in
+				face-to-face coaching sessions.</p>
+
+		</div>
+		<a href="#two" class="button style2 down anchored">Next</a>
+	</section>
+	<!-- Two -->
+	<section id="two" class="main style2 right dark fullscreen">
+		<div class="content box style2">
+			<header>
+				<h2>How does coaching work?</h2>
+			</header>
+			<p>
+				We all know what a football coach does. But how do you coach someone to improve their overall life
+				success and feeling of achievement? It's not that different! You can train your thinking patterns, your
+				problem-solving abilities, and your perspective on life. It's just practice.</p>
+
+			<p>
+				I am not here to solve your problems for you. As your ally, I am excited to help you solve them
+				yourself. Coaches coach the person, not the problem. I can help you get perspective, train your
+				reframing muscles and at times challenge you to rethink!</p>
+
+			<p>Coaching is future-focused: I will help you set your goals, help you understand how to reach them and
+				support you in making sure that you know when you achieved them.</p>
+			<p>We will work with real-world situations that you collect from your daily life. We will be detectives
+				together and solve the riddle of how to grow from here. If you want to get a sense for situations in
+				which coaching can help, scroll down!</p>
+		</div>
+		<a href="#testimonials" class="button style2 down anchored">Next</a>
+	</section>
+
+	<section id="testimonials">
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+
+			<!-- Full-width images with number and caption text -->
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 3</div>
+				<img src="images/testimonials/testimonial_Julia.png" style="width:70%">
+				<div class="text">-- JULIA M.</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 3</div>
+				<img src="images/testimonials/testimonial_Maria.png" style="width:70%">
+				<div class="text">MARIA J.</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+				<img src="images/testimonials/testimonial_Isabel.png" style="width:70%">
+				<div class="text">ISABEL S.</div>
+			</div>
+
+			<!-- Next and previous buttons -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<!-- The dots/circles -->
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+	</section>
+
+	<!-- Contact -->
+	<section id="contact" class="main style3 secondary">
+		<div class="content">
+			<header>
+				<h2>Say Hi.</h2>
+				<p>If you're interested in learning more about my coaching services and how they can potentially benefit
+					you, please feel free to reach out through the contact form below. We will book a "chemistry
+					session" to see if we would enjoy working together. Whether you have questions or just want to have
+					an open conversation about your goals and needs, I'm here to chat and provide information. Let's
+					start a dialogue, and see where it leads. <a href="mailto:sayhi@sarahcoaching.com">Just send me an
+						email!</a></p>
+				<p>
+
+					You can also book such a call directly <a href="https://cal.com/sarah-schulz-vcpxn1/45min">here</a>.
+					I'm genuinely looking forward to connecting with you.</p>
 			</header>
 
-		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-			
-				<div class="content">
-					<header>
-						<h2>Hey.</h2>
-					</header>
-					<div class="intro">
-					Exploring new horizons? Let's embrace change together.
- </div>
+		</div>
+	</section>
 
-</p>
-<footer>
-						<a href="#one" class="button style2 down">More</a>
-					</footer>
-				</div>
-			</section>
+	<!-- Footer -->
+	<footer id="footer">
 
-		
-		<!-- One -->
-			<section id="one" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Who I Am</h2>
-					</header>
-					<p>My career journey can be encapsulated in one word: transformation. I transitioned from theatre studies to linguistics, from linguistics to artificial intelligence, and from there into management. These shifts were far from predictable, yet each felt like a natural progression. I've lived in five countries, each move spurred by a mix of stagnation and curiosity, turning what could have been restarts into continuous evolution. While the path hasn't always been straightforward, it has taught me a great deal about adaptability, preventing burnout, seeking support, and taking control of my life.</p>
-<p>
-As a certified <a href="https://www.credly.com/badges/4caf31ed-d148-4ddc-b10b-b70864d790bc">ACC-level coach</a> with the International Coaching Federation, I focus on career and personal development coaching for women in tech and academia. My coaching style is creative and adaptable, incorporating principles of positive psychology, metacognition, and emotional work, with a strong emphasis on co-creating solutions with my clients. Grounding my practice in scientific principles is vital to me: Why does our brain resist change? What role do emotions play in our evolution? How can we motivate ourselves to tackle challenging yet desirable tasks?</p>
-<p>
-My passion for nature led me from Germany to Ireland, a land of wild, rugged beauty. While I embrace the connectivity of the digital world, I also cherish the power of nature as a co-facilitator in face-to-face coaching sessions.</p>
-						
-				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
-			</section>
-			<!-- Two -->
-			<section id="two" class="main style2 right dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>How does coaching work?</h2>
-					</header>
-					<p>
-We all know what a football coach does. But how do you coach someone to improve their overall life success and feeling of achievement? It's not that different! You can train your thinking patterns, your problem-solving abilities, and your perspective on life. It's just practice.</p>
+		<!-- Icons -->
+		<ul class="icons">
+			<li><a href="https://www.linkedin.com/in/schulzsarah/" class="icon brands fa-linkedin-in"><span
+						class="label">LinkedIn</span></a></li>
 
-<p>
-I am not here to solve your problems for you. As your ally, I am excited to help you solve them yourself. Coaches coach the person, not the problem. I can help you get perspective, train your reframing muscles and at times challenge you to rethink!</p>
 
-<p>Coaching is future-focused: I will help you set your goals, help you understand how to reach them and support you in making sure that you know when you achieved them.</p>
-					<p>We will work with real-world situations that you collect from your daily life. We will be detectives together and solve the riddle of how to grow from here. If you want to get a sense for situations in which coaching can help, scroll down!</p>
-				</div>
-				<a href="#testimonials" class="button style2 down anchored">Next</a>
-			</section>
+		</ul>
 
-<section id="testimonials">
-<!-- Slideshow container -->
-<div class="slideshow-container">
+		<!-- Menu -->
+		<ul class="menu">
+			<li>&copy; Sarah Schulz 2023</li>
+			<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+		</ul>
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="images/testimonials/testimonial_Julia.png" style="width:70%">
-    <div class="text">-- JULIA M.</div>
-  </div>
+	</footer>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="images/testimonials/testimonial_Maria.png" style="width:70%">
-    <div class="text">MARIA J.</div>
-  </div>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+</body>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="images/testimonials/testimonial_Isabel.png" style="width:70%">
-    <div class="text">ISABEL S.</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-</section>
-
-<!-- Contact -->
-			<section id="contact" class="main style3 secondary">
-				<div class="content">
-					<header>
-						<h2>Say Hi.</h2>
-						<p>If you're interested in learning more about my coaching services and how they can potentially benefit you, please feel free to reach out through the contact form below. We will book a "chemistry session" to see if we would enjoy working together. Whether you have questions or just want to have an open conversation about your goals and needs, I'm here to chat and provide information. Let's start a dialogue, and see where it leads. <a href="mailto:sayhi@sarahcoaching.com">Just send me an email!</a></p>
-						<p>
-						
-						You can also book such a call directly <a href="https://cal.com/sarah-schulz-vcpxn1/45min">here</a>. I'm genuinely looking forward to connecting with you.</p>
-					</header>
-					
-				</div>
-			</section>
-
-		<!-- Footer -->
-			<footer id="footer">
-
-				<!-- Icons -->
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/schulzsarah/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-
-						
-					</ul>
-
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; Sarah Schulz 2023</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
