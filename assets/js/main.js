@@ -246,3 +246,26 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+		function menuBarButtonHandler() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+
+		// Close menu on link click (mobile)
+		document.addEventListener("DOMContentLoaded", function () {
+			const navLinks = document.querySelectorAll("#myTopnav a:not(.icon)");
+			const nav = document.getElementById("myTopnav");
+
+			navLinks.forEach(link => {
+				link.addEventListener("click", function () {
+					if (nav.classList.contains("responsive")) {
+						nav.classList.remove("responsive");
+					}
+				});
+			});
+		});
