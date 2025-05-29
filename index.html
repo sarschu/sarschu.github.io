@@ -15,74 +15,6 @@
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-	<style>
-		body {
-			margin: 0;
-			font-family: Arial, Helvetica, sans-serif;
-		}
-
-		.topnav {
-			overflow: hidden;
-			background-color: #F0F0F4;
-			/* font-family: "Source Sans Pro", "sans-serif"; */
-			font-family: Arial, Helvetica, sans-serif;
-			left: 1em
-		}
-
-		.topnav a {
-			float: left;
-			display: block;
-			color: #15141A;
-			text-align: center;
-			padding: 9px 9px;
-			padding-left: 20px;
-			text-decoration: none;
-			font-size: 18px;
-		}
-
-		.topnav a:hover {
-			background-color: #ddd;
-			color: black;
-		}
-
-		.topnav a.active {
-			background-color: #04AA6D;
-			color: white;
-		}
-
-		.topnav .icon {
-			display: none;
-		}
-
-@media screen and (max-width: 1290px) {
-	.topnav a:not(:first-child) {
-		display: none;
-	}
-
-	.topnav a.icon {
-		float: right;
-		display: block;
-	}
-
-	.topnav.responsive .icon {
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
-
-	.topnav.responsive a {
-		float: none;
-		display: block;
-		text-align: left;
-		/* font-size: 14px; */
-	}
-
-	/* Uncomment if you want to make the nav position relative */
-	/* .topnav.responsive {
-		position: relative;
-	} */
-}
-	</style>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QSY4LKPRR0"></script>
@@ -280,30 +212,6 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script>
-		function menuBarButtonHandler() {
-			var x = document.getElementById("myTopnav");
-			if (x.className === "topnav") {
-				x.className += " responsive";
-			} else {
-				x.className = "topnav";
-			}
-		}
-
-		// Close menu on link click (mobile)
-		document.addEventListener("DOMContentLoaded", function () {
-			const navLinks = document.querySelectorAll("#myTopnav a:not(.icon)");
-			const nav = document.getElementById("myTopnav");
-
-			navLinks.forEach(link => {
-				link.addEventListener("click", function () {
-					if (nav.classList.contains("responsive")) {
-						nav.classList.remove("responsive");
-					}
-				});
-			});
-		});
-	</script>
 </body>
 
 </html>
