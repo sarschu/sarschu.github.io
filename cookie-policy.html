@@ -28,6 +28,54 @@ by using the button below.
 </button>
 <h2>Contact</h2>
 <p>For questions, contact sayhi@sarahcoaching.com.</p>
+  
+<script>
+function openCookieSettings() {
+  const saved = JSON.parse(
+    localStorage.getItem('cookie-preferences') || '{}'
+  );
+
+  document.getElementById('analytics-cookie').checked =
+    saved.analytics === true;
+
+  document.getElementById('marketing-cookie').checked =
+    saved.marketing === true;
+
+  document.getElementById('cookie-settings').style.display = 'flex';
+}
+
+function closeCookieSettings() {
+  document.getElementById('cookie-settings').style.display = 'none';
+}
+
+function saveCookieSettings() {
+  const preferences = {
+    essential: true,
+    analytics: document.getElementById('analytics-cookie').checked,
+    marketing: document.getElementById('marketing-cookie').checked
+  };
+
+  localStorage.setItem(
+    'cookie-preferences',
+    JSON.stringify(preferences)
+  );
+
+  localStorage.setItem('cookie-consent', 'saved');
+
+  closeCookieSettings();
+
+  // Apply the saved preferences to your cookie scripts.
+  if (typeof applyCookiePreferences === 'function') {
+    applyCookiePreferences(preferences);
+  }
+}
+
+function rejectAllCookies() {
+  document.getElementById('analytics-cookie').checked = false;
+  document.getElementById('marketing-cookie').checked = false;
+  saveCookieSettings();
+}
+</script>
   </body>
 
 </html>
