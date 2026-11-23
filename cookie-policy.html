@@ -49,9 +49,57 @@ You can change your cookie preferences at any time
 by using the button below.
 </p>
 
+<div id="cookie-settings"
+     style="display:none; position:fixed; inset:0;
+     background:rgba(0,0,0,0.6); z-index:99999;
+     align-items:center; justify-content:center; padding:20px;">
+
+  <div style="background:white; color:#333; padding:25px;
+       max-width:450px; width:100%; border-radius:10px;">
+
+    <h2>Cookie Settings</h2>
+
+    <p>Choose which optional cookies you allow.</p>
 <button onclick="openCookieSettings()">
   Manage Cookie Settings
 </button>
+    <p>
+      <label>
+        Essential cookies (always enabled)
+        <input type="checkbox" checked disabled>
+      </label>
+    </p>
+
+    <p>
+      <label>
+        Analytics cookies
+        <input type="checkbox" id="analytics-cookie">
+      </label>
+    </p>
+
+    <p>
+      <label>
+        Marketing cookies
+        <input type="checkbox" id="marketing-cookie">
+      </label>
+    </p>
+
+    <button onclick="saveCookieSettings()">
+      Save Preferences
+    </button>
+
+    <button onclick="rejectAllCookies()">
+      Reject Optional Cookies
+    </button>
+
+    <button onclick="closeCookieSettings()">
+      Close
+    </button>
+
+  </div>
+</div>
+
+
 <h2>Contact</h2>
 <p>For questions, contact sayhi@sarahcoaching.com.</p>
   
