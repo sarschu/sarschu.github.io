@@ -38,113 +38,12 @@ Cal.com's Privacy Policy
 </a>.
 </p>
 
-  
-
-<h2>Manage Your Cookie Preferences</h2>
-
-<p>
-You can change your cookie preferences at any time.
-</p>
-
-<!-- This button must be OUTSIDE the settings panel -->
-<button onclick="openCookieSettings()">
-  Manage Cookie Settings
-</button>
-
-<!-- Cookie settings popup -->
-<div id="cookie-settings"
-     style="display:none; position:fixed; inset:0;
-     background:rgba(0,0,0,0.6); z-index:99999;
-     align-items:center; justify-content:center; padding:20px;">
-
-  <div style="background:white; color:#333; padding:25px;
-       max-width:450px; width:100%; border-radius:10px;">
-
-    <h2>Cookie Settings</h2>
-
-    <p>Choose which optional cookies you allow.</p>
-
-    <p>
-      <label>
-        Essential cookies (always enabled)
-        <input type="checkbox" checked disabled>
-      </label>
-    </p>
-
-    <p>
-      <label>
-        Marketing cookies
-        <input type="checkbox" id="marketing-cookie">
-      </label>
-    </p>
-
-    <button onclick="saveCookieSettings()">
-      Save Preferences
-    </button>
-
-    <button onclick="rejectAllCookies()">
-      Reject Optional Cookies
-    </button>
-
-    <button onclick="closeCookieSettings()">
-      Close
-    </button>
-
-  </div>
-</div>
-
-
+ 
 
 <h2>Contact</h2>
 <p>For questions, contact sayhi@sarahcoaching.com.</p>
   
-<script>
-function openCookieSettings() {
-  const saved = JSON.parse(
-    localStorage.getItem('cookie-preferences') || '{}'
-  );
 
-  document.getElementById('analytics-cookie').checked =
-    saved.analytics === true;
-
-  document.getElementById('marketing-cookie').checked =
-    saved.marketing === true;
-
-  document.getElementById('cookie-settings').style.display = 'flex';
-}
-
-function closeCookieSettings() {
-  document.getElementById('cookie-settings').style.display = 'none';
-}
-
-function saveCookieSettings() {
-  const preferences = {
-    essential: true,
-    analytics: document.getElementById('analytics-cookie').checked,
-    marketing: document.getElementById('marketing-cookie').checked
-  };
-
-  localStorage.setItem(
-    'cookie-preferences',
-    JSON.stringify(preferences)
-  );
-
-  localStorage.setItem('cookie-consent', 'saved');
-
-  closeCookieSettings();
-
-  // Apply the saved preferences to your cookie scripts.
-  if (typeof applyCookiePreferences === 'function') {
-    applyCookiePreferences(preferences);
-  }
-}
-
-function rejectAllCookies() {
-  document.getElementById('analytics-cookie').checked = false;
-  document.getElementById('marketing-cookie').checked = false;
-  saveCookieSettings();
-}
-</script>
   </body>
 
 </html>
