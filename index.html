@@ -281,8 +281,168 @@ if (!localStorage.getItem('cookie-consent')) {
 }
 </script>
 
+<style>
+#cookie-settings {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.65);
+  z-index: 100001;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#cookie-settings .panel {
+  background: white;
+  color: #333;
+  max-width: 480px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+}
+
+#cookie-settings h2 {
+  margin-top: 0;
+}
+
+.cookie-option {
+  padding: 14px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cookie-option label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.cookie-option input {
+  width: 20px;
+  height: 20px;
+}
+
+.cookie-buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cookie-buttons button {
+  padding: 11px 15px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+}
+</style>
+
+<div id="cookie-settings" role="dialog"
+     aria-modal="true" aria-labelledby="cookie-title">
+  <div class="panel">
+    <h2 id="cookie-title">Cookie Settings</h2>
+
+    <p>
+      Choose which cookies you allow Sarah Coaching
+      to use. Essential cookies are always enabled.
+    </p>
+
+    <div class="cookie-option">
+      <label>
+        <span>
+          <strong>Essential cookies</strong><br>
+          <small>Required for website functionality.</small>
+        </span>
+        <input type="checkbox" checked disabled>
+      </label>
+    </div>
+
+    <div class="cookie-option">
+      <label>
+        <span>
+          <strong>Analytics cookies</strong><br>
+          <small>Help us understand website usage.</small>
+        </span>
+        <input type="checkbox" id="analytics-cookie">
+      </label>
+    </div>
+
+    <div class="cookie-option">
+      <label>
+        <span>
+          <strong>Marketing cookies</strong><br>
+          <small>Used for advertising and marketing tracking.</small>
+        </span>
+        <input type="checkbox" id="marketing-cookie">
+      </label>
+    </div>
+
+    <div class="cookie-buttons">
+      <button onclick="saveCookieSettings()">
+        Save my preferences
+      </button>
+      <button onclick="rejectAllCookies()">
+        Reject optional
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+function openCookieSettings() {
+  const saved = JSON.parse(
+    localStorage.getItem('cookie-preferences') || '{}'
+  );
+
+  document.getElementById('analytics-cookie').checked =
+    saved.analytics === true;
+
+  document.getElementById('marketing-cookie').checked =
+    saved.marketing === true;
+
+  document.getElementById('cookie-settings').style.display = 'flex';
+}
+
+function closeCookieSettings() {
+  document.getElementById('cookie-settings').style.display = 'none';
+}
+
+function saveCookieSettings() {
+  const preferences = {
+    essential: true,
+    analytics: document.getElementById('analytics-cookie').checked,
+    marketing: document.getElementById('marketing-cookie').checked
+  };
+
+  localStorage.setItem(
+    'cookie-preferences',
+    JSON.stringify(preferences)
+  );
+
+  localStorage.setItem('cookie-consent', 'saved');
+
+  closeCookieSettings();
+
+  // Apply the saved preferences to your cookie scripts.
+  if (typeof applyCookiePreferences === 'function') {
+    applyCookiePreferences(preferences);
+  }
+}
+
+function rejectAllCookies() {
+  document.getElementById('analytics-cookie').checked = false;
+  document.getElementById('marketing-cookie').checked = false;
+  saveCookieSettings();
+}
+</script>
+
 </body>
 
 </html>
+
 
 
