@@ -42,13 +42,19 @@ Cal.com's Privacy Policy
 </p>
 
   
+
 <h2>Manage Your Cookie Preferences</h2>
 
 <p>
-You can change your cookie preferences at any time
-by using the button below.
+You can change your cookie preferences at any time.
 </p>
 
+<!-- This button must be OUTSIDE the settings panel -->
+<button onclick="openCookieSettings()">
+  Manage Cookie Settings
+</button>
+
+<!-- Cookie settings popup -->
 <div id="cookie-settings"
      style="display:none; position:fixed; inset:0;
      background:rgba(0,0,0,0.6); z-index:99999;
@@ -60,20 +66,11 @@ by using the button below.
     <h2>Cookie Settings</h2>
 
     <p>Choose which optional cookies you allow.</p>
-<button onclick="openCookieSettings()">
-  Manage Cookie Settings
-</button>
+
     <p>
       <label>
         Essential cookies (always enabled)
         <input type="checkbox" checked disabled>
-      </label>
-    </p>
-
-    <p>
-      <label>
-        Analytics cookies
-        <input type="checkbox" id="analytics-cookie">
       </label>
     </p>
 
@@ -98,6 +95,7 @@ by using the button below.
 
   </div>
 </div>
+
 
 
 <h2>Contact</h2>
