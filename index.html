@@ -214,7 +214,75 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	
+<style>
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #222;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 99999;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#cookie-banner button {
+  padding: 10px 18px;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#cookie-banner .accept {
+  background: #fff;
+  color: #222;
+}
+#cookie-banner .reject {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+#cookie-banner a {
+  color: white;
+}
+</style>
+
+<div id="cookie-banner" hidden>
+  <p>
+    We use cookies to improve your experience.
+    Optional analytics and marketing cookies will
+    only be used with your permission.
+    <a href="cookie-policy.html">Cookie Policy</a>
+  </p>
+  <button class="accept" onclick="cookieConsent('accepted')">
+    Accept all
+  </button>
+  <button class="reject" onclick="cookieConsent('rejected')">
+    Reject optional cookies
+  </button>
+</div>
+
+<script>
+function cookieConsent(choice) {
+  localStorage.setItem('cookie-consent', choice);
+  document.getElementById('cookie-banner').hidden = true;
+
+  if (choice === 'accepted') {
+    // Load your optional analytics scripts here,
+    // only after consent has been given.
+  }
+}
+
+if (!localStorage.getItem('cookie-consent')) {
+  document.getElementById('cookie-banner').hidden = false;
+}
+</script>
+
 </body>
 
 </html>
+
 
